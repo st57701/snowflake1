@@ -52,6 +52,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '28ce6e78-ec9f-428f-a850-c28bf17a5ad8'
+    name: 'SF_LOAD_TS'
+    dataType:
+      platformDataTypeId: '80258a51-d5c1-45b2-8b20-9308969a4942'
+    propertyValues: []
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: 'e615dd2e-6d2b-444b-8929-5cc38e7514c3'
     name: 'Dataflow1'
@@ -65,6 +76,8 @@ dataflows:
             expression: 'f6401c88-e6f6-4d7f-9e81-66ba4ee3156d.98c557f1-6adf-49bc-a7c0-d521ab813109'
           - termId: '722d2626-35b9-41d8-8a46-3952d513fe9e'
             expression: 'f6401c88-e6f6-4d7f-9e81-66ba4ee3156d.4b6ee6dc-d434-4c67-bc73-13251dd44fd8'
+          - termId: '28ce6e78-ec9f-428f-a850-c28bf17a5ad8'
+            expression: 'f6401c88-e6f6-4d7f-9e81-66ba4ee3156d.ec87f967-acfa-488b-9929-11144e868733'
         dataflowModelObjects:
           - alias: 's1'
             id: 'f6401c88-e6f6-4d7f-9e81-66ba4ee3156d'
