@@ -42,3 +42,8 @@ views:
         collapsed: false
       - id: 'e77c2002-5adc-4135-b5bc-cb191876b978'
       - id: '14ac60cf-0fb3-4679-8dcb-1eaa90cafe0a'
+  - id: '6e00b04c-9893-4fbc-91c1-c5df04d2fa64'
+    name: 'ITEMS_SAGE'
+    description: 'dsa'
+    type: 'data-model'
+    default: false
