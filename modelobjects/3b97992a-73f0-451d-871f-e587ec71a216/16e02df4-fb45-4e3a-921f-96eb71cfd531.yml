@@ -1,0 +1,99 @@
+id: '16e02df4-fb45-4e3a-921f-96eb71cfd531'
+modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
+name: 'ITEM_SAGE_SAT'
+description: 'Sat for ITEMS_SAGE'
+terms:
+  - id: 'be749ac1-06d0-4555-abcc-4222768469c1'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '0fbb2d50-706f-4221-84e8-308a39b94209'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '8e1d35e6-2efe-4b54-bfcb-2316c781578d'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+      length: 40
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    isDefaultTerm: true
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '24235b8d-654d-4736-9db9-eb7d9d9b74bd'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '766ad254-0b96-482b-8696-e2a161968a3d'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '0fbb2d50-706f-4221-84e8-308a39b94209'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '315df407-b939-4f01-a43c-c7065daab720'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+      length: 40
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '0fe0e53c-16f1-42de-a2e3-271cc3fa5557'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '0fbb2d50-706f-4221-84e8-308a39b94209'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+dataflows:
+  - id: '8c7c68b7-c6ff-49e0-882b-1738b821f588'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'ee5a9f7d-2533-47c3-a3e8-80126ecaba38'
+        name: 'Set1'
+        termMappings:
+          - termId: 'be749ac1-06d0-4555-abcc-4222768469c1'
+          - termId: '8e1d35e6-2efe-4b54-bfcb-2316c781578d'
+          - termId: '24235b8d-654d-4736-9db9-eb7d9d9b74bd'
+          - termId: '766ad254-0b96-482b-8696-e2a161968a3d'
+          - termId: '315df407-b939-4f01-a43c-c7065daab720'
+          - termId: '0fe0e53c-16f1-42de-a2e3-271cc3fa5557'
