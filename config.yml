@@ -1,0 +1,5 @@
+NamingRules:
+  - InternalCode: '135ed515-ba04-468f-817b-559e86bbdcdc'
+    Name: 'Business Hub Table'
+    NamePattern: 'DH_{ModelObject.Name}_HUB'
+    Scope: 'ModelObjectType'
