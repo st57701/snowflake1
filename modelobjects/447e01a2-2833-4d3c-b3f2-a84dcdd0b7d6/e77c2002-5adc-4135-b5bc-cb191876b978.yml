@@ -139,6 +139,18 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '46a85d35-83a9-4815-9b8c-4363dfe1b074'
+    name: 'Hub_HK'
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+      length: 40
+    description: 'Identifier of a record'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: 'e615dd2e-6d2b-444b-8929-5cc38e7514c3'
     name: 'Dataflow1'
@@ -168,6 +180,8 @@ dataflows:
             expression: 'f6401c88-e6f6-4d7f-9e81-66ba4ee3156d.9abf39b1-8df2-40e5-81e7-08403dc280ee'
           - termId: '676856ed-6891-468f-9ef0-d5734d4a7362'
             expression: 'f6401c88-e6f6-4d7f-9e81-66ba4ee3156d.b64475a8-6d77-4d24-aacb-25961a4f2e18'
+          - termId: '46a85d35-83a9-4815-9b8c-4363dfe1b074'
+            expression: 'f6401c88-e6f6-4d7f-9e81-66ba4ee3156d.4e4775ba-2f0b-4130-ac6a-9cabfa46e59b'
         dataflowModelObjects:
           - alias: 's1'
             id: 'f6401c88-e6f6-4d7f-9e81-66ba4ee3156d'
