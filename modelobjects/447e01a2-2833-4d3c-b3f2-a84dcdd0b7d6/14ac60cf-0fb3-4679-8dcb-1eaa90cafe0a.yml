@@ -178,3 +178,5 @@ dataflows:
             joinOperatorId: 'f8803f08-ef9d-4baf-bbfb-fce3242b8085'
             id: '3cf30438-87be-4a07-bb83-85a81a14eac2'
             sourceModelObjectId: '15aa34cd-3874-4f6a-921c-0bc295f03822'
+            joinExpression: 'e16aca3b-4f11-42ba-a0b6-eed766161d3e.a6819893-f6e1-409f-a31b-6d3e690da031 = 3cf30438-87be-4a07-bb83-85a81a14eac2.fe059706-99f8-4f69-8fbb-7a6a27194d01'
+            propertyValues: []
