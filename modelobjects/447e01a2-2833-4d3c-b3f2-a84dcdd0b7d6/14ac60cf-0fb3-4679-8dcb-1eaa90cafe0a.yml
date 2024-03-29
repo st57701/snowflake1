@@ -175,7 +175,7 @@ dataflows:
             id: 'e16aca3b-4f11-42ba-a0b6-eed766161d3e'
             sourceModelObjectId: '7e077b92-7d9b-4646-8adb-fc323a6651f8'
             propertyValues: []
-          - alias: 's2'
+          - alias: 'HUB'
             joinOperatorId: 'f8803f08-ef9d-4baf-bbfb-fce3242b8085'
             id: '3cf30438-87be-4a07-bb83-85a81a14eac2'
             sourceModelObjectId: '15aa34cd-3874-4f6a-921c-0bc295f03822'
