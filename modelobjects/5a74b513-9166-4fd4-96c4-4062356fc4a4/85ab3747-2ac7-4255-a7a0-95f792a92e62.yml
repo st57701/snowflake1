@@ -73,15 +73,15 @@ terms:
   - id: '6ca3ff11-61c6-4b4c-a497-c21d4a27e6bd'
     name: 'ITEM_CODE'
     dataType:
-      scale: 0
-      precision: 38
       platformDataTypeId: 'c4ba26eb-242f-4c92-8290-2455536d8267'
+      precision: 38
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
-    isNullable: true
+    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 'f7ac67af-9bfd-40d7-9494-3f0283792e43'
     name: 'ITEM'
     dataType:
