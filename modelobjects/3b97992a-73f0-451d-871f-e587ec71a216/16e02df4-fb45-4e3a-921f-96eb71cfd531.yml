@@ -1,6 +1,6 @@
 id: '16e02df4-fb45-4e3a-921f-96eb71cfd531'
 modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
-name: 'ITEM_SAGE_SAT'
+name: 'ITEMS_SAGE_SAT'
 description: 'Sat for ITEMS_SAGE'
 terms:
   - id: 'be749ac1-06d0-4555-abcc-4222768469c1'
@@ -230,3 +230,6 @@ relationships:
         referenceTermId: '136029b5-084f-42fa-9e24-9d02b1cf1fbc'
     additionalTermIds: []
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: ''
