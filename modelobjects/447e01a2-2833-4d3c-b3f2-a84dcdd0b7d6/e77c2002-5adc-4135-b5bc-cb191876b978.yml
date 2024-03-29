@@ -1,6 +1,6 @@
 id: 'e77c2002-5adc-4135-b5bc-cb191876b978'
 modelObjectTypeId: '447e01a2-2833-4d3c-b3f2-a84dcdd0b7d6'
-name: 'OTB_SV_ITEMS_SAGE_RST'
+name: 'OTB_SV_ITEMS_RST'
 terms:
   - id: 'b7c1f53c-5686-4128-abc4-ac8ca37506f8'
     name: 'BG_SourceSystem'
@@ -38,3 +38,4 @@ dataflows:
         termMappings:
           - termId: 'b7c1f53c-5686-4128-abc4-ac8ca37506f8'
           - termId: '6397fc22-b21e-4519-aad9-908c5f34c3d8'
+propertyValues: []
