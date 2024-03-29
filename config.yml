@@ -1,7 +1,7 @@
 NamingRules:
   - InternalCode: '135ed515-ba04-468f-817b-559e86bbdcdc'
     Name: 'Business Hub Table'
-    NamePattern: 'DH_{ModelObject.Name}_HUB'
+    NamePattern: 'DH_T_{ModelObject.Name}_HUB'
     Scope: 'ModelObjectType'
   - InternalCode: 'b860fe9d-643f-40c8-8e21-b1b31d356d3f'
     Name: 'Business Link Table'
