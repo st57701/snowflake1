@@ -47,3 +47,12 @@ views:
     description: 'dsa'
     type: 'data-model'
     default: false
+    modelObjects:
+      - id: '15aa34cd-3874-4f6a-921c-0bc295f03822'
+      - id: '91921ee9-e966-46b1-b5e0-4825798ca61f'
+      - id: '16e02df4-fb45-4e3a-921f-96eb71cfd531'
+      - id: '7e077b92-7d9b-4646-8adb-fc323a6651f8'
+      - id: 'e77c2002-5adc-4135-b5bc-cb191876b978'
+      - id: '14ac60cf-0fb3-4679-8dcb-1eaa90cafe0a'
+      - id: '87185df0-e7ee-4439-946a-3b16b41cc09f'
+      - id: '85ab3747-2ac7-4255-a7a0-95f792a92e62'
