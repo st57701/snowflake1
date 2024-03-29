@@ -1,0 +1,56 @@
+id: '91921ee9-e966-46b1-b5e0-4825798ca61f'
+modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
+name: 'RDH_T_ITEMS_SAGE_HUB'
+description: 'Hub for Item sage'
+terms:
+  - id: '4dd46d89-39ee-4f20-be86-0a31250c13b4'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '0fbb2d50-706f-4221-84e8-308a39b94209'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '5e5e2a74-4bfd-42cf-a75f-8aba87c969a7'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+      length: 40
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    isDefaultTerm: true
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '3a6a4dcd-442f-46a0-a96a-2d90f01ebef6'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: '16df6d02-e0e0-43b6-a0ea-5c60b637386d'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '1c4e4cac-14eb-44d3-8359-55c3ee3be55c'
+        name: 'Set1'
+        termMappings:
+          - termId: '4dd46d89-39ee-4f20-be86-0a31250c13b4'
+          - termId: '5e5e2a74-4bfd-42cf-a75f-8aba87c969a7'
+          - termId: '3a6a4dcd-442f-46a0-a96a-2d90f01ebef6'
