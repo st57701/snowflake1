@@ -10,3 +10,4 @@ sourceSystems:
     name: 'STG_T_ITEMS_SAGE'
     description: 'STG_T_ITEMS_SAGE_FLAT'
     sourceSystemTypeId: 'c1473962-88cf-4ae7-82a4-ca7a9beb0e56'
+    activeDiscovery: 'a9649582-f4bc-418a-a58e-fbb94bcbd6bc'

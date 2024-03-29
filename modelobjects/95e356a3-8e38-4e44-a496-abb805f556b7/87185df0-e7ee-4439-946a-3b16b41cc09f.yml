@@ -1,0 +1,106 @@
+id: '87185df0-e7ee-4439-946a-3b16b41cc09f'
+name: 'STG_T_ITEMS_SAGE_FLAT'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'f1a83aab-b4d9-4bb5-b654-2d7fbfb22e0c'
+    name: 'ITEM_CODE'
+    dataType:
+      scale: 0
+      precision: 38
+      platformDataTypeId: 'c4ba26eb-242f-4c92-8290-2455536d8267'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '328903b6-ed8c-427a-92f2-469e5a3fcbe9'
+    name: 'ITEM'
+    dataType:
+      precision: 16777216
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '96b939f5-b78a-46cf-ac7a-ab6404b32961'
+    name: 'SF_LOAD_TS'
+    dataType:
+      platformDataTypeId: '80258a51-d5c1-45b2-8b20-9308969a4942'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '73280f70-56f3-4d9b-95ec-99ba3e533c36'
+    name: 'MW_UPDATE_TS'
+    dataType:
+      platformDataTypeId: '80258a51-d5c1-45b2-8b20-9308969a4942'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9cfb2c99-c533-4a78-9773-8055d44c0939'
+    name: 'MW_SOURCE'
+    dataType:
+      precision: 16777216
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '138943ab-536e-43c9-90f8-34e75072a15b'
+    name: 'MW_SOURCE_REGION'
+    dataType:
+      precision: 16777216
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8f2f5fce-af19-4f38-a91d-a5462aae6940'
+    name: 'MW_SOURCE_EXTRACTION_TS'
+    dataType:
+      platformDataTypeId: '80258a51-d5c1-45b2-8b20-9308969a4942'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1febe44f-85d7-40b5-a4b0-cba82dc3b898'
+    name: 'MW_DATA_ENTITY'
+    dataType:
+      precision: 16777216
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3cd2d4a0-5409-45c5-b555-913d50794b94'
+    name: 'MW_BOOMI_RUN_ID'
+    dataType:
+      precision: 16777216
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#a9649582-f4bc-418a-a58e-fbb94bcbd6bc'
+  - '$sourcesystem#id#206b700a-a2e3-4658-a20a-e11e95b5cddf'
+  - '$initial#name#stg_t_items_sage_flat'
+propertyValues: []
