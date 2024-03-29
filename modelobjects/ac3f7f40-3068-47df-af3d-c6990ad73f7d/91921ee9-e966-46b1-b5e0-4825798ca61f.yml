@@ -56,17 +56,6 @@ terms:
     isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '5cfa0b04-7261-4826-8f4e-ea47313f04b2'
-    name: 'MW_SOURCE_REGION'
-    dataType:
-      precision: 16777216
-      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '54c341b4-50e0-4467-b031-a37300f7bd6e'
     name: 'MW_SOURCE_EXTRACTION_TS'
     dataType:
@@ -111,8 +100,6 @@ dataflows:
           - termId: '3a6a4dcd-442f-46a0-a96a-2d90f01ebef6'
           - termId: '136029b5-084f-42fa-9e24-9d02b1cf1fbc'
             expression: '91d56f08-8b9f-4620-917e-e89171d2f544.6ca3ff11-61c6-4b4c-a497-c21d4a27e6bd'
-          - termId: '5cfa0b04-7261-4826-8f4e-ea47313f04b2'
-            expression: '91d56f08-8b9f-4620-917e-e89171d2f544.ec910ea8-6e10-4003-8446-2b08720eb089'
           - termId: '54c341b4-50e0-4467-b031-a37300f7bd6e'
             expression: '91d56f08-8b9f-4620-917e-e89171d2f544.21198b43-730d-4a3d-8907-601094e5919b'
           - termId: 'b6919974-f3ba-46a7-80c2-997cc0dab821'
