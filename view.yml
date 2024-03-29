@@ -14,4 +14,7 @@ views:
     description: 'Default view for data model.'
     type: 'data-model'
     default: true
-    modelObjects: []
+    modelObjects:
+      - id: '16e02df4-fb45-4e3a-921f-96eb71cfd531'
+      - id: '91921ee9-e966-46b1-b5e0-4825798ca61f'
+      - id: '85ab3747-2ac7-4255-a7a0-95f792a92e62'
