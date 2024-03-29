@@ -1,5 +1,5 @@
 id: '15aa34cd-3874-4f6a-921c-0bc295f03822'
-name: 'ITEMS_SAGE_HUB_Hub'
+name: 'ITEMS_HUB'
 description: 'Generated Model Object from ITEMS_SAGE_HUB'
 modelObjectTypeId: '18636802-0fa6-4d5d-9d73-6bd5c71b0052'
 terms:
@@ -72,3 +72,6 @@ dataflows:
           - id: 'f51a08e5-3cb7-46ba-91b6-4bd80e9a4182'
             sourceModelObjectId: '91921ee9-e966-46b1-b5e0-4825798ca61f'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: ''

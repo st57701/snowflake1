@@ -85,7 +85,7 @@ terms:
     hiddenInSource: false
     hiddenInTarget: true
   - id: '458f9739-f38c-480d-bab9-a6d0973ab1c8'
-    name: 'FK_ITEMS_SAGE_HUB_Hub_ITEM_CODE'
+    name: 'FK_ITEMS_HUB_ITEMS_SAGE_HUB_Hub_ITEM_CODE'
     dataType:
       platformDataTypeId: 'c4ba26eb-242f-4c92-8290-2455536d8267'
       precision: 38
