@@ -1,5 +1,5 @@
 id: '7e077b92-7d9b-4646-8adb-fc323a6651f8'
-name: 'ITEM_SAGE_SAT_Satellite'
+name: 'ITEM_SAGE_SAT'
 description: 'Generated Model Object from ITEM_SAGE_SAT'
 modelObjectTypeId: 'a7b33460-3e3d-4fe0-93a6-7095e35c680f'
 terms:
@@ -236,3 +236,6 @@ relationships:
         referenceTermId: 'fa573575-ac59-4b3e-9ede-2cb677e8dd9f'
     additionalTermIds: []
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: ''
