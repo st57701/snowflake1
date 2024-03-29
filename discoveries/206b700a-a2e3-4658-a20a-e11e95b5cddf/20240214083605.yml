@@ -1,0 +1,114 @@
+id: 'a9649582-f4bc-418a-a58e-fbb94bcbd6bc'
+name: 'snowflake_items.json'
+timestamp: '2024-02-14T08:36:05.159104Z'
+sourceSystem:
+  type: 'File'
+sourceObjects:
+  - name: 'STG_T_ITEMS_SAGE_FLAT'
+    fullyQualifiedName: 'DATAHUB_DEV.SANDBOX_AMIRONOVS.STG_T_ITEMS_SAGE_FLAT'
+    objectType: {}
+    terms:
+      - name: 'ITEM_CODE'
+        sourceDataType:
+          name: 'NUMBER'
+          scale: 0
+          precision: 38
+          isNullable: true
+        dataType:
+          name: 'number'
+          scale: 0
+          precision: 38
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'ITEM'
+        sourceDataType:
+          name: 'VARCHAR'
+          precision: 16777216
+          isNullable: true
+        dataType:
+          name: 'varchar'
+          precision: 16777216
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'SF_LOAD_TS'
+        sourceDataType:
+          name: 'TIMESTAMP_NTZ'
+          isNullable: false
+        dataType:
+          name: 'TIMESTAMP_NTZ'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'MW_UPDATE_TS'
+        sourceDataType:
+          name: 'TIMESTAMP_NTZ'
+          isNullable: true
+        dataType:
+          name: 'TIMESTAMP_NTZ'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'MW_SOURCE'
+        sourceDataType:
+          name: 'VARCHAR'
+          precision: 16777216
+          isNullable: false
+        dataType:
+          name: 'varchar'
+          precision: 16777216
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'MW_SOURCE_REGION'
+        sourceDataType:
+          name: 'VARCHAR'
+          precision: 16777216
+          isNullable: true
+        dataType:
+          name: 'varchar'
+          precision: 16777216
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'MW_SOURCE_EXTRACTION_TS'
+        sourceDataType:
+          name: 'TIMESTAMP_NTZ'
+          isNullable: true
+        dataType:
+          name: 'TIMESTAMP_NTZ'
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'MW_DATA_ENTITY'
+        sourceDataType:
+          name: 'VARCHAR'
+          precision: 16777216
+          isNullable: false
+        dataType:
+          name: 'varchar'
+          precision: 16777216
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false
+      - name: 'MW_BOOMI_RUN_ID'
+        sourceDataType:
+          name: 'VARCHAR'
+          precision: 16777216
+          isNullable: false
+        dataType:
+          name: 'varchar'
+          precision: 16777216
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+        isDefaultTerm: false

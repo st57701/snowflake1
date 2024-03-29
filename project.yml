@@ -5,3 +5,8 @@ description: 'New project for test snowflake'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Snowflake'
   version: '1.4.0'
+sourceSystems:
+  - id: '206b700a-a2e3-4658-a20a-e11e95b5cddf'
+    name: 'STG_T_ITEMS_SAGE'
+    description: 'STG_T_ITEMS_SAGE_FLAT'
+    sourceSystemTypeId: 'c1473962-88cf-4ae7-82a4-ca7a9beb0e56'
