@@ -140,6 +140,18 @@ terms:
     dataType:
       platformDataTypeId: 'e18c38c4-8152-4d28-a8ff-a20a21b791a4'
     propertyValues: []
+  - id: '4e4775ba-2f0b-4130-ac6a-9cabfa46e59b'
+    name: 'Hub_HK'
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+      length: 40
+    description: 'Identifier of a record'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '58ffe5e0-efd1-4186-9b67-15439d82ae0f'
     name: 'Dataflow1'
@@ -170,6 +182,8 @@ dataflows:
           - termId: 'b64475a8-6d77-4d24-aacb-25961a4f2e18'
             expression: 'ROW_NUMBER() OVER (PARTITION BY e16aca3b-4f11-42ba-a0b6-eed766161d3e.a6819893-f6e1-409f-a31b-6d3e690da031 ORDER BY e16aca3b-4f11-42ba-a0b6-eed766161d3e.22eca49c-ec83-4470-a3b8-26519ea33b5f DESC)'
             propertyValues: []
+          - termId: '4e4775ba-2f0b-4130-ac6a-9cabfa46e59b'
+            expression: '3cf30438-87be-4a07-bb83-85a81a14eac2.fe059706-99f8-4f69-8fbb-7a6a27194d01'
         dataflowModelObjects:
           - alias: 'SAT'
             id: 'e16aca3b-4f11-42ba-a0b6-eed766161d3e'
