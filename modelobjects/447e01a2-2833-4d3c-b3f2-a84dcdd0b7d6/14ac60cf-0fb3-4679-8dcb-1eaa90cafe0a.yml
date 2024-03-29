@@ -118,6 +118,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '9abf39b1-8df2-40e5-81e7-08403dc280ee'
+    name: 'MW_BOOMI_RUN_ID'
+    dataType:
+      precision: 16777216
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '58ffe5e0-efd1-4186-9b67-15439d82ae0f'
     name: 'Dataflow1'
@@ -143,6 +154,8 @@ dataflows:
             expression: 'e16aca3b-4f11-42ba-a0b6-eed766161d3e.a1394ee3-629c-4734-96aa-540f995d937b'
           - termId: '57866ac1-03f7-40b4-a38e-1289c8261bc3'
             expression: 'e16aca3b-4f11-42ba-a0b6-eed766161d3e.de7eceb2-7578-47df-bb91-1c11efdc940a'
+          - termId: '9abf39b1-8df2-40e5-81e7-08403dc280ee'
+            expression: 'e16aca3b-4f11-42ba-a0b6-eed766161d3e.fa8a180b-a154-492d-be4d-b52daf5f0661'
         dataflowModelObjects:
           - alias: 's1'
             id: 'e16aca3b-4f11-42ba-a0b6-eed766161d3e'
