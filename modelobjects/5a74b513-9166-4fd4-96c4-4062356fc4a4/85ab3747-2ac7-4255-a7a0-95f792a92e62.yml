@@ -117,14 +117,15 @@ terms:
   - id: 'b68bacf2-c0c1-42f3-9242-1211b03651d7'
     name: 'MW_SOURCE'
     dataType:
-      precision: 16777216
       platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+      precision: 16777216
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
-    isNullable: true
+    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 'ec910ea8-6e10-4003-8446-2b08720eb089'
     name: 'MW_SOURCE_REGION'
     dataType:
