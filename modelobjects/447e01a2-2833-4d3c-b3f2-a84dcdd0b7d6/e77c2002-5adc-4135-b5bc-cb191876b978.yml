@@ -38,4 +38,8 @@ dataflows:
         termMappings:
           - termId: 'b7c1f53c-5686-4128-abc4-ac8ca37506f8'
           - termId: '6397fc22-b21e-4519-aad9-908c5f34c3d8'
+        dataflowModelObjects:
+          - alias: 's1'
+            id: 'f6401c88-e6f6-4d7f-9e81-66ba4ee3156d'
+            sourceModelObjectId: '14ac60cf-0fb3-4679-8dcb-1eaa90cafe0a'
 propertyValues: []
