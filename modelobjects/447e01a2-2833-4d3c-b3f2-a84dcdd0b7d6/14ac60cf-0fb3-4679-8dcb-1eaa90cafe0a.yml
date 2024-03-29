@@ -39,3 +39,11 @@ dataflows:
         termMappings:
           - termId: '0422758d-ff6c-4b58-8142-5fc26551f745'
           - termId: '22036cec-0010-43c1-a55c-72c19506d84d'
+        dataflowModelObjects:
+          - alias: 's1'
+            id: 'e16aca3b-4f11-42ba-a0b6-eed766161d3e'
+            sourceModelObjectId: '7e077b92-7d9b-4646-8adb-fc323a6651f8'
+          - alias: 's2'
+            joinOperatorId: 'f8803f08-ef9d-4baf-bbfb-fce3242b8085'
+            id: '3cf30438-87be-4a07-bb83-85a81a14eac2'
+            sourceModelObjectId: '15aa34cd-3874-4f6a-921c-0bc295f03822'
