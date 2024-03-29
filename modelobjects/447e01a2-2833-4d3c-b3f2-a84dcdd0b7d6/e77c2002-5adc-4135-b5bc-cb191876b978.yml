@@ -1,0 +1,40 @@
+id: 'e77c2002-5adc-4135-b5bc-cb191876b978'
+modelObjectTypeId: '447e01a2-2833-4d3c-b3f2-a84dcdd0b7d6'
+name: 'OTB_SV_ITEMS_SAGE_RST'
+terms:
+  - id: 'b7c1f53c-5686-4128-abc4-ac8ca37506f8'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6397fc22-b21e-4519-aad9-908c5f34c3d8'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '0fbb2d50-706f-4221-84e8-308a39b94209'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+dataflows:
+  - id: 'e615dd2e-6d2b-444b-8929-5cc38e7514c3'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'b50aedba-fece-40ee-a16a-27f59690eb6e'
+        name: 'Set1'
+        termMappings:
+          - termId: 'b7c1f53c-5686-4128-abc4-ac8ca37506f8'
+          - termId: '6397fc22-b21e-4519-aad9-908c5f34c3d8'
