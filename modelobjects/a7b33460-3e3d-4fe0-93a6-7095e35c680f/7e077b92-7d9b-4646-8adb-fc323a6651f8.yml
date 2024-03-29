@@ -216,9 +216,10 @@ dataflows:
           - termId: 'fa8a180b-a154-492d-be4d-b52daf5f0661'
             expression: 'b0a309c9-b536-4432-8d6f-52a90038403a.1a262737-17c6-4f0e-9cec-4dd06561e183'
         dataflowModelObjects:
-          - alias: 's2'
+          - alias: 'HUB'
             id: '850fe8e6-298b-4706-9d71-00c840cd5973'
             sourceModelObjectId: '91921ee9-e966-46b1-b5e0-4825798ca61f'
+            propertyValues: []
           - alias: 'SAT'
             joinOperatorId: 'f8803f08-ef9d-4baf-bbfb-fce3242b8085'
             id: 'b0a309c9-b536-4432-8d6f-52a90038403a'
