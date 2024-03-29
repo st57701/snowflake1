@@ -1,6 +1,6 @@
 id: '91921ee9-e966-46b1-b5e0-4825798ca61f'
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
-name: 'RDH_T_ITEMS_SAGE_HUB'
+name: 'ITEMS_SAGE_HUB'
 description: 'Hub for Item sage'
 terms:
   - id: '4dd46d89-39ee-4f20-be86-0a31250c13b4'
@@ -72,3 +72,6 @@ dataflows:
           - alias: 's1'
             id: '91d56f08-8b9f-4620-917e-e89171d2f544'
             sourceModelObjectId: '85ab3747-2ac7-4255-a7a0-95f792a92e62'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: ''
