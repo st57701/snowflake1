@@ -11,3 +11,7 @@ NamingRules:
     Name: 'Business Satellite Table'
     NamePattern: 'DH_{ModelObject.Name}_SAT'
     Scope: 'ModelObjectType'
+  - InternalCode: '585daed6-0f29-464b-8f0c-d47759ecfb6d'
+    Name: 'Satellite Table'
+    NamePattern: 'RDH_{ModelObject.Name}_SAT'
+    Scope: 'ModelObjectType'
