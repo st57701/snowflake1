@@ -212,6 +212,7 @@ dataflows:
           - termId: 'a1394ee3-629c-4734-96aa-540f995d937b'
             expression: 'b0a309c9-b536-4432-8d6f-52a90038403a.f1a04c78-d8f4-453f-a3a1-db54322ff7d1'
           - termId: 'de7eceb2-7578-47df-bb91-1c11efdc940a'
+            expression: 'b0a309c9-b536-4432-8d6f-52a90038403a.ebd4bd2e-c361-4e63-adad-a93081e07b60'
           - termId: 'fa8a180b-a154-492d-be4d-b52daf5f0661'
         dataflowModelObjects:
           - alias: 's2'
