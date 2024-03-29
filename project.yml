@@ -1,0 +1,7 @@
+id: '1a59b655-edf8-4610-48ce-08dc42b4b039'
+version: 'v1.2'
+name: 'Test_Project'
+description: 'New project for test snowflake'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.VaultAndMart.Snowflake'
+  version: '1.4.0'
