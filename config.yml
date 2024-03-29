@@ -7,3 +7,7 @@ NamingRules:
     Name: 'Business Link Table'
     NamePattern: 'DH_{ModelObject.Name}_LINK'
     Scope: 'ModelObjectType'
+  - InternalCode: 'f8606b92-4b86-4db3-9c9b-99868c636654'
+    Name: 'Business Satellite Table'
+    NamePattern: 'DH_{ModelObject.Name}_SAT'
+    Scope: 'ModelObjectType'
