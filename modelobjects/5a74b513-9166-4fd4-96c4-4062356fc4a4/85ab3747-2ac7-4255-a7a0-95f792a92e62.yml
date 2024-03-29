@@ -100,9 +100,10 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
-    isNullable: true
+    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 'c4b42935-0072-4e84-9a93-7c8b400a1c9a'
     name: 'MW_UPDATE_TS'
     dataType:
