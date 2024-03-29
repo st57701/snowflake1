@@ -56,17 +56,6 @@ terms:
     isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '33cebdd2-ab5f-4e86-9950-7016f3f78ea7'
-    name: 'ITEM'
-    dataType:
-      precision: 16777216
-      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '65ce3489-5099-4cb7-888d-8eb7be09ee33'
     name: 'SF_LOAD_TS'
     dataType:
@@ -155,8 +144,6 @@ dataflows:
           - termId: '3a6a4dcd-442f-46a0-a96a-2d90f01ebef6'
           - termId: '136029b5-084f-42fa-9e24-9d02b1cf1fbc'
             expression: '91d56f08-8b9f-4620-917e-e89171d2f544.6ca3ff11-61c6-4b4c-a497-c21d4a27e6bd'
-          - termId: '33cebdd2-ab5f-4e86-9950-7016f3f78ea7'
-            expression: '91d56f08-8b9f-4620-917e-e89171d2f544.f7ac67af-9bfd-40d7-9494-3f0283792e43'
           - termId: '65ce3489-5099-4cb7-888d-8eb7be09ee33'
             expression: '91d56f08-8b9f-4620-917e-e89171d2f544.aec247fa-f5db-46f0-9b62-7ca5aa70ee0c'
           - termId: 'f8935e82-5dfb-4224-9901-5092a68129d6'
