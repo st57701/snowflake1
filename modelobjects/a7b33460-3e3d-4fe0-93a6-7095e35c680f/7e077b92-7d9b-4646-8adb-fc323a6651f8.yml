@@ -192,6 +192,7 @@ dataflows:
         termMappings:
           - termId: 'f2d4bb54-97d5-47b2-a6ad-d870b67bb316'
           - termId: 'f38d8876-81cd-42c0-8803-40e1be7bedda'
+            expression: 'b0a309c9-b536-4432-8d6f-52a90038403a.24235b8d-654d-4736-9db9-eb7d9d9b74bd'
           - termId: '8aa3823e-de2a-483b-a89f-59dd5f073b22'
           - termId: '997d22e1-82d7-4821-b413-cda3ee303510'
           - termId: 'a6819893-f6e1-409f-a31b-6d3e690da031'
