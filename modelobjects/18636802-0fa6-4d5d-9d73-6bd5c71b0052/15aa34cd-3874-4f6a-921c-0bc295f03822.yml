@@ -56,6 +56,17 @@ terms:
     isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '55c83974-a93b-4210-b59a-5c585b17ff40'
+    name: 'BG_LoadTimestamp1'
+    dataType:
+      platformDataTypeId: '0fbb2d50-706f-4221-84e8-308a39b94209'
+    description: 'Default term with the load timestamp'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '14e61267-428b-43be-b4e8-f3888b2a8dd4'
     name: 'Dataflow1'
@@ -69,6 +80,8 @@ dataflows:
           - termId: 'fe059706-99f8-4f69-8fbb-7a6a27194d01'
           - termId: 'fa573575-ac59-4b3e-9ede-2cb677e8dd9f'
             expression: 'f51a08e5-3cb7-46ba-91b6-4bd80e9a4182.136029b5-084f-42fa-9e24-9d02b1cf1fbc'
+          - termId: '55c83974-a93b-4210-b59a-5c585b17ff40'
+            expression: 'f51a08e5-3cb7-46ba-91b6-4bd80e9a4182.ceca8f2f-8870-4b89-b31a-0181824c8aca'
         dataflowModelObjects:
           - id: 'f51a08e5-3cb7-46ba-91b6-4bd80e9a4182'
             sourceModelObjectId: '91921ee9-e966-46b1-b5e0-4825798ca61f'
