@@ -178,6 +178,8 @@ dataflows:
         termMappings:
           - termId: 'bb40fd94-de1f-4fe7-af27-f5173680d59d'
           - termId: 'b4a138ed-23cb-4d42-869e-842b8748ea1e'
+            defaultValue: 'sage'
+            propertyValues: []
           - termId: 'e3f9e12c-e456-458f-b9cf-d61c36be47f5'
           - termId: 'bd5af4ff-e91d-47ea-8c72-a6b3bc7591c9'
           - termId: '8e79f269-60eb-4120-8c40-f3521ea32cf5'
